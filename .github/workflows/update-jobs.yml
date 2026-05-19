@@ -1,0 +1,33 @@
+name: Update newest jobs
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch newest jobs
+        run: node scripts/fetch-usajobs.mjs
+        env:
+          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
+          USAJOBS_AUTH_KEY: ${{ secrets.USAJOBS_AUTH_KEY }}
+
+      - name: Commit updated jobs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update newest jobs"
+          file_pattern: data/jobs.json

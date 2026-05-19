@@ -1,0 +1,49 @@
+{
+  "searches": [
+    {
+      "id": "usajobs-geo",
+      "label": "USAJOBS: geo",
+      "industry": "geo-environment",
+      "provider": "usajobs",
+      "params": {
+        "Keyword": "geo",
+        "DatePosted": "1",
+        "SortField": "opendate",
+        "SortDirection": "desc",
+        "ResultsPerPage": "25",
+        "WhoMayApply": "public",
+        "Fields": "Min"
+      }
+    },
+    {
+      "id": "usajobs-gis",
+      "label": "USAJOBS: GIS",
+      "industry": "geo-environment",
+      "provider": "usajobs",
+      "params": {
+        "Keyword": "GIS",
+        "DatePosted": "7",
+        "SortField": "opendate",
+        "SortDirection": "desc",
+        "ResultsPerPage": "25",
+        "WhoMayApply": "public",
+        "Fields": "Min"
+      }
+    },
+    {
+      "id": "usajobs-analyst",
+      "label": "USAJOBS: analyst",
+      "industry": "policy-public",
+      "provider": "usajobs",
+      "params": {
+        "Keyword": "analyst",
+        "DatePosted": "1",
+        "SortField": "opendate",
+        "SortDirection": "desc",
+        "ResultsPerPage": "25",
+        "WhoMayApply": "public",
+        "Fields": "Min"
+      }
+    }
+  ]
+}

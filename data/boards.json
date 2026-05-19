@@ -1,0 +1,145 @@
+{
+  "industries": [
+    {
+      "id": "geo-environment",
+      "name": "Geo & Environment",
+      "shortName": "Geo",
+      "headline": "Geospatial, climate, conservation, and field science searches.",
+      "description": "A daily launchpad for geographic information systems, environmental science, climate, planning, and public lands work.",
+      "quickActions": [
+        {
+          "label": "USAJOBS: geo",
+          "url": "https://www.usajobs.gov/Search/Results?k=geo"
+        },
+        {
+          "label": "USAJOBS: GIS",
+          "url": "https://www.usajobs.gov/Search/Results?k=gis"
+        },
+        {
+          "label": "Conservation Job Board",
+          "url": "https://www.conservationjobboard.com/"
+        }
+      ],
+      "links": [
+        {
+          "name": "USAJOBS",
+          "type": "Official",
+          "description": "Federal openings, including geography, GIS, natural resources, and environmental protection roles.",
+          "cadence": "Check daily for new postings and closing dates.",
+          "url": "https://www.usajobs.gov/",
+          "searchUrl": "https://www.usajobs.gov/Search/Results?k=geo"
+        },
+        {
+          "name": "Conservation Job Board",
+          "type": "Curated",
+          "description": "Conservation, ecology, wildlife, natural resources, and environmental education roles.",
+          "cadence": "Check a few times per week.",
+          "url": "https://www.conservationjobboard.com/",
+          "searchUrl": "https://www.conservationjobboard.com/category/geographic-information-systems-jobs"
+        },
+        {
+          "name": "Esri Careers",
+          "type": "Company",
+          "description": "Company career site for GIS software, services, product, support, and technical roles.",
+          "cadence": "Check weekly or when targeting GIS product roles.",
+          "url": "https://www.esri.com/en-us/about/careers/overview",
+          "searchUrl": "https://www.esri.com/en-us/about/careers/job-search"
+        }
+      ]
+    },
+    {
+      "id": "policy-public",
+      "name": "Policy & Public Sector",
+      "shortName": "Policy",
+      "headline": "Government, civic tech, public policy, and mission-driven work.",
+      "description": "A board for public interest roles across federal, state, local, nonprofit, and civic technology organizations.",
+      "quickActions": [
+        {
+          "label": "USAJOBS: analyst",
+          "url": "https://www.usajobs.gov/Search/Results?k=analyst"
+        },
+        {
+          "label": "Government Jobs",
+          "url": "https://www.governmentjobs.com/"
+        },
+        {
+          "label": "Idealist",
+          "url": "https://www.idealist.org/en/jobs"
+        }
+      ],
+      "links": [
+        {
+          "name": "USAJOBS",
+          "type": "Official",
+          "description": "Federal roles across agencies, including public affairs, grants, analysis, and program work.",
+          "cadence": "Check daily for new public postings.",
+          "url": "https://www.usajobs.gov/",
+          "searchUrl": "https://www.usajobs.gov/Search/Results?k=program%20analyst"
+        },
+        {
+          "name": "GovernmentJobs",
+          "type": "Official",
+          "description": "State, county, city, and special district roles.",
+          "cadence": "Check weekly, especially with location filters.",
+          "url": "https://www.governmentjobs.com/",
+          "searchUrl": "https://www.governmentjobs.com/jobs?keyword=analyst"
+        },
+        {
+          "name": "Idealist",
+          "type": "Curated",
+          "description": "Nonprofit, policy, education, and social impact roles.",
+          "cadence": "Check weekly for smaller organizations.",
+          "url": "https://www.idealist.org/en/jobs",
+          "searchUrl": "https://www.idealist.org/en/jobs?q=policy"
+        }
+      ]
+    },
+    {
+      "id": "tech-data",
+      "name": "Tech & Data",
+      "shortName": "Tech",
+      "headline": "Software, data, analytics, developer tools, and operations.",
+      "description": "A practical board for data-adjacent roles, software teams, and technical organizations worth checking directly.",
+      "quickActions": [
+        {
+          "label": "Hacker News",
+          "url": "https://news.ycombinator.com/jobs"
+        },
+        {
+          "label": "Wellfound",
+          "url": "https://wellfound.com/jobs"
+        },
+        {
+          "label": "Built In",
+          "url": "https://builtin.com/jobs"
+        }
+      ],
+      "links": [
+        {
+          "name": "Hacker News Jobs",
+          "type": "Curated",
+          "description": "Smaller technical teams and startup roles posted directly by companies.",
+          "cadence": "Check weekly; new posts cluster early in the month.",
+          "url": "https://news.ycombinator.com/jobs",
+          "searchUrl": "https://news.ycombinator.com/jobs"
+        },
+        {
+          "name": "Wellfound",
+          "type": "Curated",
+          "description": "Startup and growth-stage jobs across engineering, data, product, and operations.",
+          "cadence": "Check weekly with remote and location filters.",
+          "url": "https://wellfound.com/jobs",
+          "searchUrl": "https://wellfound.com/jobs"
+        },
+        {
+          "name": "Built In",
+          "type": "Curated",
+          "description": "Tech company roles with filters for city, remote, function, and seniority.",
+          "cadence": "Check weekly for company-specific listings.",
+          "url": "https://builtin.com/jobs",
+          "searchUrl": "https://builtin.com/jobs/remote"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <p class="eyebrow">Daily search desk</p>
+          <h1>Personal Job Board</h1>
+        </div>
+        <div class="header-actions">
+          <a class="button button-primary" href="#newest-jobs">Newest Jobs</a>
+          <a class="button" href="https://www.usajobs.gov/Search/Results?k=geo" target="_blank" rel="noreferrer">USAJOBS Geo</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="board-shell" aria-labelledby="board-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Industry boards</p>
+            <h2 id="board-title">Saved Sites</h2>
+          </div>
+          <p class="section-note">Fast links for the sites you check often, grouped by search lane.</p>
+        </div>
+
+        <nav class="tabs" id="industry-tabs" aria-label="Industry boards"></nav>
+        <div id="board-content" class="board-content" aria-live="polite"></div>
+      </section>
+
+      <section id="newest-jobs" class="jobs-shell" aria-labelledby="jobs-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Auto refreshed</p>
+            <h2 id="jobs-title">Newest Jobs</h2>
+          </div>
+          <p class="section-note" id="jobs-updated">Loading newest jobs...</p>
+        </div>
+
+        <div class="jobs-toolbar">
+          <label class="search-field" for="job-filter">
+            <span>Filter</span>
+            <input id="job-filter" type="search" placeholder="Title, agency, location, source">
+          </label>
+          <select id="job-source-filter" aria-label="Filter by saved search">
+            <option value="all">All saved searches</option>
+          </select>
+        </div>
+
+        <div id="jobs-content" class="jobs-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Edit <code>data/boards.json</code> for links and tabs. Edit <code>data/searches.json</code> for recurring searches.</p>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
