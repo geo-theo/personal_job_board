@@ -3,7 +3,7 @@
     {
       "id": "usajobs-geo",
       "label": "USAJOBS: geo",
-      "industry": "geo-environment",
+      "industry": "geospatial-gis",
       "provider": "usajobs",
       "params": {
         "Keyword": "geo",
@@ -18,7 +18,7 @@
     {
       "id": "usajobs-gis",
       "label": "USAJOBS: GIS",
-      "industry": "geo-environment",
+      "industry": "geospatial-gis",
       "provider": "usajobs",
       "params": {
         "Keyword": "GIS",
@@ -31,12 +31,12 @@
       }
     },
     {
-      "id": "usajobs-analyst",
-      "label": "USAJOBS: analyst",
-      "industry": "policy-public",
+      "id": "usajobs-intelligence-analyst",
+      "label": "USAJOBS: intelligence analyst",
+      "industry": "geopolitical-risk",
       "provider": "usajobs",
       "params": {
-        "Keyword": "analyst",
+        "Keyword": "intelligence analyst",
         "DatePosted": "1",
         "SortField": "opendate",
         "SortDirection": "desc",

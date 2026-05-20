@@ -1,38 +1,93 @@
 {
   "industries": [
     {
-      "id": "geo-environment",
-      "name": "Geo & Environment",
-      "shortName": "Geo",
-      "headline": "Geospatial, climate, conservation, and field science searches.",
-      "description": "A daily launchpad for geographic information systems, environmental science, climate, planning, and public lands work.",
+      "id": "missoula-local",
+      "name": "Missoula, MT",
+      "shortName": "Local",
+      "headline": "Jobs local to Missoula, Montana.",
+      "description": "A daily check-in board for local government, university, nonprofit, company, and regional job sites around Missoula.",
       "quickActions": [
         {
-          "label": "USAJOBS: geo",
-          "url": "https://www.usajobs.gov/Search/Results?k=geo"
+          "label": "Missoula search",
+          "url": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT"
         },
+        {
+          "label": "City of Missoula",
+          "url": "https://www.ci.missoula.mt.us/jobs"
+        },
+        {
+          "label": "UM Jobs",
+          "url": "https://www.umt.edu/jobs/"
+        }
+      ],
+      "links": [
+        {
+          "name": "City of Missoula Jobs",
+          "type": "Official",
+          "description": "Municipal jobs with the City of Missoula.",
+          "cadence": "Check weekly for local government openings.",
+          "url": "https://www.ci.missoula.mt.us/jobs",
+          "searchUrl": "https://www.ci.missoula.mt.us/jobs"
+        },
+        {
+          "name": "University of Montana Jobs",
+          "type": "Official",
+          "description": "Staff, faculty, research, administrative, and student-support roles at UM.",
+          "cadence": "Check weekly, especially for research and program roles.",
+          "url": "https://www.umt.edu/jobs/",
+          "searchUrl": "https://www.umt.edu/jobs/"
+        },
+        {
+          "name": "Missoula Job Service",
+          "type": "Official",
+          "description": "Montana Department of Labor job service office and local employment resources.",
+          "cadence": "Check weekly for regional openings and hiring events.",
+          "url": "https://dli.mt.gov/jobopenings/",
+          "searchUrl": "https://dli.mt.gov/jobopenings/"
+        },
+        {
+          "name": "Indeed: Missoula",
+          "type": "Curated",
+          "description": "Broad local aggregator for companies, nonprofits, healthcare, government, and small businesses.",
+          "cadence": "Check daily when actively searching locally.",
+          "url": "https://www.indeed.com/",
+          "searchUrl": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT"
+        }
+      ]
+    },
+    {
+      "id": "geospatial-gis",
+      "name": "Geospatial & GIS",
+      "shortName": "GIS",
+      "headline": "Geospatial, GIS, mapping, remote sensing, and spatial analysis roles.",
+      "description": "A focused board for GIS analysts, geospatial developers, cartography, planning, environmental data, and mapping technology roles.",
+      "quickActions": [
         {
           "label": "USAJOBS: GIS",
           "url": "https://www.usajobs.gov/Search/Results?k=gis"
         },
         {
-          "label": "Conservation Job Board",
-          "url": "https://www.conservationjobboard.com/"
+          "label": "USAJOBS: geo",
+          "url": "https://www.usajobs.gov/Search/Results?k=geo"
+        },
+        {
+          "label": "Esri Careers",
+          "url": "https://www.esri.com/en-us/about/careers/job-search"
         }
       ],
       "links": [
         {
           "name": "USAJOBS",
           "type": "Official",
-          "description": "Federal openings, including geography, GIS, natural resources, and environmental protection roles.",
+          "description": "Federal GIS, geography, cartography, remote sensing, planning, and natural resources roles.",
           "cadence": "Check daily for new postings and closing dates.",
           "url": "https://www.usajobs.gov/",
-          "searchUrl": "https://www.usajobs.gov/Search/Results?k=geo"
+          "searchUrl": "https://www.usajobs.gov/Search/Results?k=gis"
         },
         {
           "name": "Conservation Job Board",
           "type": "Curated",
-          "description": "Conservation, ecology, wildlife, natural resources, and environmental education roles.",
+          "description": "Conservation, ecology, wildlife, GIS, natural resources, and environmental education roles.",
           "cadence": "Check a few times per week.",
           "url": "https://www.conservationjobboard.com/",
           "searchUrl": "https://www.conservationjobboard.com/category/geographic-information-systems-jobs"
@@ -40,27 +95,35 @@
         {
           "name": "Esri Careers",
           "type": "Company",
-          "description": "Company career site for GIS software, services, product, support, and technical roles.",
+          "description": "GIS software, product, support, services, sales engineering, and technical roles.",
           "cadence": "Check weekly or when targeting GIS product roles.",
           "url": "https://www.esri.com/en-us/about/careers/overview",
           "searchUrl": "https://www.esri.com/en-us/about/careers/job-search"
+        },
+        {
+          "name": "GIS Jobs Clearinghouse",
+          "type": "Curated",
+          "description": "Long-running board focused on GIS, geospatial analysis, and spatial data roles.",
+          "cadence": "Check weekly for niche GIS postings.",
+          "url": "https://www.gjc.org/",
+          "searchUrl": "https://www.gjc.org/"
         }
       ]
     },
     {
-      "id": "policy-public",
-      "name": "Policy & Public Sector",
-      "shortName": "Policy",
-      "headline": "Government, civic tech, public policy, and mission-driven work.",
-      "description": "A board for public interest roles across federal, state, local, nonprofit, and civic technology organizations.",
+      "id": "international-development",
+      "name": "International Development & NGOs/IGOs",
+      "shortName": "Dev",
+      "headline": "International development, humanitarian, NGO, and intergovernmental roles.",
+      "description": "A board for global development, humanitarian response, international organizations, research institutes, and mission-driven NGOs.",
       "quickActions": [
         {
-          "label": "USAJOBS: analyst",
-          "url": "https://www.usajobs.gov/Search/Results?k=analyst"
+          "label": "UN Jobs",
+          "url": "https://unjobs.org/"
         },
         {
-          "label": "Government Jobs",
-          "url": "https://www.governmentjobs.com/"
+          "label": "Devex Jobs",
+          "url": "https://www.devex.com/jobs"
         },
         {
           "label": "Idealist",
@@ -69,75 +132,91 @@
       ],
       "links": [
         {
-          "name": "USAJOBS",
-          "type": "Official",
-          "description": "Federal roles across agencies, including public affairs, grants, analysis, and program work.",
-          "cadence": "Check daily for new public postings.",
-          "url": "https://www.usajobs.gov/",
-          "searchUrl": "https://www.usajobs.gov/Search/Results?k=program%20analyst"
+          "name": "UN Jobs",
+          "type": "Curated",
+          "description": "Aggregator for UN, IGO, NGO, development, humanitarian, and research jobs.",
+          "cadence": "Check several times per week for global openings.",
+          "url": "https://unjobs.org/",
+          "searchUrl": "https://unjobs.org/themes/international-development"
         },
         {
-          "name": "GovernmentJobs",
+          "name": "Devex Jobs",
+          "type": "Curated",
+          "description": "International development, global health, humanitarian, policy, and consulting roles.",
+          "cadence": "Check weekly; useful for development contractors and NGOs.",
+          "url": "https://www.devex.com/jobs",
+          "searchUrl": "https://www.devex.com/jobs/search"
+        },
+        {
+          "name": "ReliefWeb Jobs",
           "type": "Official",
-          "description": "State, county, city, and special district roles.",
-          "cadence": "Check weekly, especially with location filters.",
-          "url": "https://www.governmentjobs.com/",
-          "searchUrl": "https://www.governmentjobs.com/jobs?keyword=analyst"
+          "description": "Humanitarian and development roles from NGOs, UN agencies, and international organizations.",
+          "cadence": "Check weekly or when targeting humanitarian work.",
+          "url": "https://reliefweb.int/jobs",
+          "searchUrl": "https://reliefweb.int/jobs"
         },
         {
           "name": "Idealist",
           "type": "Curated",
-          "description": "Nonprofit, policy, education, and social impact roles.",
+          "description": "Nonprofit, NGO, social impact, policy, and international program roles.",
           "cadence": "Check weekly for smaller organizations.",
           "url": "https://www.idealist.org/en/jobs",
-          "searchUrl": "https://www.idealist.org/en/jobs?q=policy"
+          "searchUrl": "https://www.idealist.org/en/jobs?q=international%20development"
         }
       ]
     },
     {
-      "id": "tech-data",
-      "name": "Tech & Data",
-      "shortName": "Tech",
-      "headline": "Software, data, analytics, developer tools, and operations.",
-      "description": "A practical board for data-adjacent roles, software teams, and technical organizations worth checking directly.",
+      "id": "geopolitical-risk",
+      "name": "Geopolitical Risk",
+      "shortName": "Risk",
+      "headline": "Geopolitical risk, intelligence, security analysis, and country-risk roles.",
+      "description": "A board for analysis roles in geopolitical risk, strategic intelligence, due diligence, security, policy research, and global affairs.",
       "quickActions": [
         {
-          "label": "Hacker News",
-          "url": "https://news.ycombinator.com/jobs"
+          "label": "USAJOBS: intelligence analyst",
+          "url": "https://www.usajobs.gov/Search/Results?k=intelligence%20analyst"
         },
         {
-          "label": "Wellfound",
-          "url": "https://wellfound.com/jobs"
+          "label": "LinkedIn: geopolitical risk",
+          "url": "https://www.linkedin.com/jobs/search/?keywords=geopolitical%20risk"
         },
         {
-          "label": "Built In",
-          "url": "https://builtin.com/jobs"
+          "label": "Idealist: policy",
+          "url": "https://www.idealist.org/en/jobs?q=policy%20analyst"
         }
       ],
       "links": [
         {
-          "name": "Hacker News Jobs",
-          "type": "Curated",
-          "description": "Smaller technical teams and startup roles posted directly by companies.",
-          "cadence": "Check weekly; new posts cluster early in the month.",
-          "url": "https://news.ycombinator.com/jobs",
-          "searchUrl": "https://news.ycombinator.com/jobs"
+          "name": "USAJOBS",
+          "type": "Official",
+          "description": "Federal intelligence, foreign affairs, policy, security, and analyst roles.",
+          "cadence": "Check daily for postings with short windows.",
+          "url": "https://www.usajobs.gov/",
+          "searchUrl": "https://www.usajobs.gov/Search/Results?k=intelligence%20analyst"
         },
         {
-          "name": "Wellfound",
-          "type": "Curated",
-          "description": "Startup and growth-stage jobs across engineering, data, product, and operations.",
-          "cadence": "Check weekly with remote and location filters.",
-          "url": "https://wellfound.com/jobs",
-          "searchUrl": "https://wellfound.com/jobs"
+          "name": "Control Risks Careers",
+          "type": "Company",
+          "description": "Risk consulting, intelligence, security, investigations, and resilience roles.",
+          "cadence": "Check weekly for consulting and analyst openings.",
+          "url": "https://www.controlrisks.com/careers",
+          "searchUrl": "https://www.controlrisks.com/careers"
         },
         {
-          "name": "Built In",
+          "name": "Crisis24 Careers",
+          "type": "Company",
+          "description": "Security, intelligence, crisis response, travel risk, and operations roles.",
+          "cadence": "Check weekly for global security analyst roles.",
+          "url": "https://www.crisis24.garda.com/careers",
+          "searchUrl": "https://www.crisis24.garda.com/careers"
+        },
+        {
+          "name": "LinkedIn: Geopolitical Risk",
           "type": "Curated",
-          "description": "Tech company roles with filters for city, remote, function, and seniority.",
-          "cadence": "Check weekly for company-specific listings.",
-          "url": "https://builtin.com/jobs",
-          "searchUrl": "https://builtin.com/jobs/remote"
+          "description": "Broad aggregator for geopolitical risk, country risk, intelligence, and security analysis roles.",
+          "cadence": "Check frequently with location and remote filters.",
+          "url": "https://www.linkedin.com/jobs/",
+          "searchUrl": "https://www.linkedin.com/jobs/search/?keywords=geopolitical%20risk"
         }
       ]
     }
