@@ -5,220 +5,160 @@
       "name": "Missoula, MT",
       "shortName": "Local",
       "headline": "Jobs local to Missoula, Montana.",
-      "description": "A daily check-in board for local government, university, nonprofit, company, and regional job sites around Missoula.",
-      "quickActions": [
+      "description": "Career pages and local boards to scan for work based in or near Missoula.",
+      "careers": [
+        { "name": "City of Missoula", "url": "https://www.governmentjobs.com/careers/missoulacity/" },
+        { "name": "Missoula County", "url": "https://www.governmentjobs.com/careers/missoulacounty/" },
+        { "name": "University of Montana", "url": "https://www.schooljobs.com/careers/ummissoula" },
+        { "name": "OnX", "url": "https://www.onxmaps.com/join-our-team" },
+        { "name": "RMEF", "url": "https://recruiting.paylocity.com/recruiting/jobs/All/45c60a54-fb7a-4c78-807d-923bc65279d3/Rocky-Mountain-Elk-Foundation" },
+        { "name": "NorthWestern Energy", "url": "https://northwesternenergy.applicantpro.com/jobs/" },
         {
-          "label": "Missoula search",
-          "url": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT"
+          "name": "GSI Environmental",
+          "url": "https://www.paycomonline.net/v4/ats/web.php/portal/84C0F5CB02B1467DD28BA3FC61C63DFD/career-page",
+          "note": "Set location to Missoula, MT - Missoula, MT 59802."
         },
-        {
-          "label": "City of Missoula",
-          "url": "https://www.ci.missoula.mt.us/jobs"
-        },
-        {
-          "label": "UM Jobs",
-          "url": "https://www.umt.edu/jobs/"
-        }
+        { "name": "Land ID", "url": "https://id.land/about#careers" },
+        { "name": "Washington Companies", "url": "https://fa-evwo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs" },
+        { "name": "Submittable", "url": "https://www.submittable.com/careers" },
+        { "name": "Edulog", "url": "https://www.edulog.com/careers/" },
+        { "name": "Skyfish Drones", "url": "https://skyfish.ai/careers/" },
+        { "name": "Blackfoot Communications", "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ad3c4dbc-c216-48d0-b074-78ff1d7461e4&ccId=19000101_000001&lang=en_US" },
+        { "name": "YMCA", "url": "https://www.ymcamissoula.org/job-opportunities" },
+        { "name": "GCS Consulting", "url": "https://gcs.yourdatasmarter.com/careers/" },
+        { "name": "State of Montana", "url": "https://mtstatejobs.taleo.net/careersection/200/jobsearch.ftl?lang=en" }
       ],
-      "links": [
-        {
-          "name": "City of Missoula Jobs",
-          "type": "Official",
-          "description": "Municipal jobs with the City of Missoula.",
-          "cadence": "Check weekly for local government openings.",
-          "url": "https://www.ci.missoula.mt.us/jobs",
-          "searchUrl": "https://www.ci.missoula.mt.us/jobs"
-        },
-        {
-          "name": "University of Montana Jobs",
-          "type": "Official",
-          "description": "Staff, faculty, research, administrative, and student-support roles at UM.",
-          "cadence": "Check weekly, especially for research and program roles.",
-          "url": "https://www.umt.edu/jobs/",
-          "searchUrl": "https://www.umt.edu/jobs/"
-        },
-        {
-          "name": "Missoula Job Service",
-          "type": "Official",
-          "description": "Montana Department of Labor job service office and local employment resources.",
-          "cadence": "Check weekly for regional openings and hiring events.",
-          "url": "https://dli.mt.gov/jobopenings/",
-          "searchUrl": "https://dli.mt.gov/jobopenings/"
-        },
-        {
-          "name": "Indeed: Missoula",
-          "type": "Curated",
-          "description": "Broad local aggregator for companies, nonprofits, healthcare, government, and small businesses.",
-          "cadence": "Check daily when actively searching locally.",
-          "url": "https://www.indeed.com/",
-          "searchUrl": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT"
-        }
-      ]
+      "jobBoards": [
+        { "name": "Missoulian", "url": "https://jobs.missoulian.com/search?keyword=&location=Missoula%2C+MT&page=1&radius_mi=&experience=", "note": "Missoula search results" },
+        { "name": "MT High Tech Business Alliance", "url": "https://jobs.mthightech.org/" },
+        { "name": "Missoula Nonprofit Center", "url": "https://www.missoulanonprofitcenter.org/job-board" },
+        { "name": "Missoula Chamber of Commerce", "url": "https://www.missoulachamber.com/community-job-board" },
+        { "name": "Indeed", "url": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT&vjk=b53e4304f3362a29", "note": "Missoula search results" },
+        { "name": "ZipRecruiter", "url": "https://www.ziprecruiter.com/jobs-search?search=&location=Missoula%2C+MT&radius=50&days=&refine_by_employment=&refine_by_location_type=&refine_by_salary=&refine_by_salary_ceil=&refine_by_apply_type=has_zipapply&refine_by_experience_level=no_experience%2Cjunior%2Cmid&lk=o4SyjcXT4yJRheH30B1ILA", "note": "Missoula search results" },
+        { "name": "Craigslist", "url": "https://missoula.craigslist.org/search/jjj#search=2~thumb~0" }
+      ],
+      "automation": {
+        "ready": [],
+        "requirements": [
+          "No documented public job-listings API has been confirmed yet for the local sources above."
+        ],
+        "research": [
+          "GovernmentJobs/SchoolJobs, Oracle Recruiting, Paycom, ADP, Taleo, and company career pages need a supported public feed or an approved page-monitoring approach before daily collection.",
+          "Indeed, ZipRecruiter, Craigslist, and the local boards remain open-link checks unless an allowed feed or API is identified."
+        ]
+      }
     },
     {
       "id": "geospatial-gis",
       "name": "Geospatial & GIS",
       "shortName": "GIS",
-      "headline": "Geospatial, GIS, mapping, remote sensing, and spatial analysis roles.",
-      "description": "A focused board for GIS analysts, geospatial developers, cartography, planning, environmental data, and mapping technology roles.",
-      "quickActions": [
-        {
-          "label": "USAJOBS: GIS",
-          "url": "https://www.usajobs.gov/Search/Results?k=gis"
-        },
-        {
-          "label": "USAJOBS: geo",
-          "url": "https://www.usajobs.gov/Search/Results?k=geo"
-        },
-        {
-          "label": "Esri Careers",
-          "url": "https://www.esri.com/en-us/about/careers/job-search"
-        }
+      "headline": "Geospatial, GIS, mapping, and spatial analysis roles.",
+      "description": "Direct company searches and specialist boards for geographic information work.",
+      "keywordSearch": {
+        "placeholder": "Try GIS, geospatial analyst, remote sensing...",
+        "sites": [
+          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
+          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" },
+          { "name": "Google Maps Careers", "template": "https://www.google.com/about/careers/applications/jobs/results/?q={query}&sort_by=date" }
+        ]
+      },
+      "careers": [
+        { "name": "Esri", "url": "https://www.esri.com/en-us/about/careers/job-search" },
+        { "name": "Google Maps", "url": "https://www.google.com/about/careers/applications/jobs/results/?q=geo&sort_by=date", "note": "Geo results, newest first" }
       ],
-      "links": [
-        {
-          "name": "USAJOBS",
-          "type": "Official",
-          "description": "Federal GIS, geography, cartography, remote sensing, planning, and natural resources roles.",
-          "cadence": "Check daily for new postings and closing dates.",
-          "url": "https://www.usajobs.gov/",
-          "searchUrl": "https://www.usajobs.gov/Search/Results?k=gis"
-        },
-        {
-          "name": "Conservation Job Board",
-          "type": "Curated",
-          "description": "Conservation, ecology, wildlife, GIS, natural resources, and environmental education roles.",
-          "cadence": "Check a few times per week.",
-          "url": "https://www.conservationjobboard.com/",
-          "searchUrl": "https://www.conservationjobboard.com/category/geographic-information-systems-jobs"
-        },
-        {
-          "name": "Esri Careers",
-          "type": "Company",
-          "description": "GIS software, product, support, services, sales engineering, and technical roles.",
-          "cadence": "Check weekly or when targeting GIS product roles.",
-          "url": "https://www.esri.com/en-us/about/careers/overview",
-          "searchUrl": "https://www.esri.com/en-us/about/careers/job-search"
-        },
-        {
-          "name": "GIS Jobs Clearinghouse",
-          "type": "Curated",
-          "description": "Long-running board focused on GIS, geospatial analysis, and spatial data roles.",
-          "cadence": "Check weekly for niche GIS postings.",
-          "url": "https://www.gjc.org/",
-          "searchUrl": "https://www.gjc.org/"
-        }
-      ]
+      "jobBoards": [
+        { "name": "GIS Jobs", "url": "https://www.mygisjobs.com/" },
+        { "name": "GIS Jobs Clearinghouse", "url": "https://www.gjc.org/cgi-bin/listjobs.pl" },
+        { "name": "More GIS Jobs", "url": "https://www.gisjobs.com/" }
+      ],
+      "automation": {
+        "ready": [
+          { "name": "USAJOBS keyword searches", "requirement": "Requires a USAJOBS API key plus User-Agent email and Authorization-Key request headers." }
+        ],
+        "requirements": [
+          "USAJOBS can later populate GIS keyword results through its official Search API."
+        ],
+        "research": [
+          "Esri, Google Careers, GIS Jobs, GIS Jobs Clearinghouse, and More GIS Jobs do not have a supported public listings API confirmed for this board yet."
+        ]
+      }
     },
     {
       "id": "international-development",
       "name": "International Development & NGOs/IGOs",
-      "shortName": "Dev",
-      "headline": "International development, humanitarian, NGO, and intergovernmental roles.",
-      "description": "A board for global development, humanitarian response, international organizations, research institutes, and mission-driven NGOs.",
-      "quickActions": [
-        {
-          "label": "UN Jobs",
-          "url": "https://unjobs.org/"
-        },
-        {
-          "label": "Devex Jobs",
-          "url": "https://www.devex.com/jobs"
-        },
-        {
-          "label": "Idealist",
-          "url": "https://www.idealist.org/en/jobs"
-        }
+      "shortName": "IDEV",
+      "headline": "International development, humanitarian, NGO, and IGO roles.",
+      "description": "Organizations and specialist boards for global development and humanitarian work.",
+      "keywordSearch": {
+        "placeholder": "Try food security, MEL, humanitarian, governance...",
+        "sites": [
+          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
+          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" },
+          { "name": "ReliefWeb", "template": "https://reliefweb.int/jobs?search={query}" },
+          { "name": "Idealist", "template": "https://www.idealist.org/en/jobs?q={query}" }
+        ]
+      },
+      "careers": [
+        { "name": "One Acre Fund", "url": "https://oneacrefund.org/careers/job-openings" },
+        { "name": "FEWS NET", "url": "https://fews.net/", "note": "FEWS NET roles are frequently posted through implementing partner Chemonics." },
+        { "name": "Chemonics US", "url": "https://phh.tbe.taleo.net/phh02/ats/careers/v2/searchResults?org=CHEMONICS&cws=50" },
+        { "name": "Chemonics UK", "url": "https://chemonicsukweb.eploy.net/vacancies/vacancy-search-results.aspx" }
       ],
-      "links": [
-        {
-          "name": "UN Jobs",
-          "type": "Curated",
-          "description": "Aggregator for UN, IGO, NGO, development, humanitarian, and research jobs.",
-          "cadence": "Check several times per week for global openings.",
-          "url": "https://unjobs.org/",
-          "searchUrl": "https://unjobs.org/themes/international-development"
-        },
-        {
-          "name": "Devex Jobs",
-          "type": "Curated",
-          "description": "International development, global health, humanitarian, policy, and consulting roles.",
-          "cadence": "Check weekly; useful for development contractors and NGOs.",
-          "url": "https://www.devex.com/jobs",
-          "searchUrl": "https://www.devex.com/jobs/search"
-        },
-        {
-          "name": "ReliefWeb Jobs",
-          "type": "Official",
-          "description": "Humanitarian and development roles from NGOs, UN agencies, and international organizations.",
-          "cadence": "Check weekly or when targeting humanitarian work.",
-          "url": "https://reliefweb.int/jobs",
-          "searchUrl": "https://reliefweb.int/jobs"
-        },
-        {
-          "name": "Idealist",
-          "type": "Curated",
-          "description": "Nonprofit, NGO, social impact, policy, and international program roles.",
-          "cadence": "Check weekly for smaller organizations.",
-          "url": "https://www.idealist.org/en/jobs",
-          "searchUrl": "https://www.idealist.org/en/jobs?q=international%20development"
-        }
-      ]
+      "jobBoards": [
+        { "name": "UN Jobs", "url": "https://unjobs.org/" },
+        { "name": "Devex Jobs", "url": "https://www.devex.com/jobs" },
+        { "name": "ReliefWeb Jobs", "url": "https://reliefweb.int/jobs" },
+        { "name": "Idealist", "url": "https://www.idealist.org/en/jobs" }
+      ],
+      "automation": {
+        "ready": [
+          { "name": "One Acre Fund", "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication." },
+          { "name": "ReliefWeb Jobs", "requirement": "ReliefWeb API v2 exposes jobs; use a pre-approved appname query parameter." }
+        ],
+        "requirements": [
+          "A future daily update can begin with One Acre Fund and ReliefWeb without scraping their rendered pages."
+        ],
+        "research": [
+          "FEWS NET/Chemonics, Chemonics UK, UN Jobs, Devex, and Idealist need a confirmed supported feed/API or permitted monitoring approach first."
+        ]
+      }
     },
     {
       "id": "geopolitical-risk",
       "name": "Geopolitical Risk",
       "shortName": "Risk",
       "headline": "Geopolitical risk, intelligence, security analysis, and country-risk roles.",
-      "description": "A board for analysis roles in geopolitical risk, strategic intelligence, due diligence, security, policy research, and global affairs.",
-      "quickActions": [
-        {
-          "label": "USAJOBS: intelligence analyst",
-          "url": "https://www.usajobs.gov/Search/Results?k=intelligence%20analyst"
-        },
-        {
-          "label": "LinkedIn: geopolitical risk",
-          "url": "https://www.linkedin.com/jobs/search/?keywords=geopolitical%20risk"
-        },
-        {
-          "label": "Idealist: policy",
-          "url": "https://www.idealist.org/en/jobs?q=policy%20analyst"
-        }
+      "description": "Direct employers and focused boards for intelligence and political risk analysis.",
+      "keywordSearch": {
+        "placeholder": "Try geopolitical risk, intelligence analyst, country risk...",
+        "sites": [
+          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
+          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" }
+        ]
+      },
+      "careers": [
+        { "name": "Eurasia Group", "url": "https://ats.rippling.com/eurasia-group/jobs" },
+        { "name": "RANE Network", "url": "https://www.ranenetwork.com/about/career-page" },
+        { "name": "Sibylline", "url": "https://careers.smartrecruiters.com/SibyllineLtd/" },
+        { "name": "10a Labs", "url": "https://job-boards.greenhouse.io/10alabs" },
+        { "name": "Control Risks", "url": "https://apply.workable.com/control-risks-6/#jobs" },
+        { "name": "ISW", "url": "https://understandingwar.org/about-isw/careers/#open-positions" }
       ],
-      "links": [
-        {
-          "name": "USAJOBS",
-          "type": "Official",
-          "description": "Federal intelligence, foreign affairs, policy, security, and analyst roles.",
-          "cadence": "Check daily for postings with short windows.",
-          "url": "https://www.usajobs.gov/",
-          "searchUrl": "https://www.usajobs.gov/Search/Results?k=intelligence%20analyst"
-        },
-        {
-          "name": "Control Risks Careers",
-          "type": "Company",
-          "description": "Risk consulting, intelligence, security, investigations, and resilience roles.",
-          "cadence": "Check weekly for consulting and analyst openings.",
-          "url": "https://www.controlrisks.com/careers",
-          "searchUrl": "https://www.controlrisks.com/careers"
-        },
-        {
-          "name": "Crisis24 Careers",
-          "type": "Company",
-          "description": "Security, intelligence, crisis response, travel risk, and operations roles.",
-          "cadence": "Check weekly for global security analyst roles.",
-          "url": "https://www.crisis24.garda.com/careers",
-          "searchUrl": "https://www.crisis24.garda.com/careers"
-        },
-        {
-          "name": "LinkedIn: Geopolitical Risk",
-          "type": "Curated",
-          "description": "Broad aggregator for geopolitical risk, country risk, intelligence, and security analysis roles.",
-          "cadence": "Check frequently with location and remote filters.",
-          "url": "https://www.linkedin.com/jobs/",
-          "searchUrl": "https://www.linkedin.com/jobs/search/?keywords=geopolitical%20risk"
-        }
-      ]
+      "jobBoards": [
+        { "name": "Political Risk Jobs", "url": "https://www.politicalriskjobs.com/" }
+      ],
+      "automation": {
+        "ready": [
+          { "name": "10a Labs", "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication." },
+          { "name": "Sibylline", "requirement": "Published postings are available through the SmartRecruiters Posting API without authentication." }
+        ],
+        "requirements": [
+          "A future daily update can begin with 10a Labs and Sibylline."
+        ],
+        "research": [
+          "Eurasia Group, RANE Network, Control Risks, ISW, and Political Risk Jobs need a confirmed supported feed/API or permitted monitoring approach first."
+        ]
+      }
     }
   ]
 }

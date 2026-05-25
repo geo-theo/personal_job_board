@@ -1,10 +1,10 @@
 # Personal Job Board
 
-A static GitHub Pages dashboard for saved job-search links, grouped by industry, with an optional daily USAJOBS refresh powered by GitHub Actions.
+A static GitHub Pages dashboard for saved job-search links, grouped by search lane, with space for future daily job updates.
 
 ## Edit Your Boards
 
-Saved sites and industry tabs live in `data/boards.json`.
+Saved sites, industry tabs, keyword-search destinations, and future automation notes live in `data/boards.json`.
 
 To add another industry tab, add an object to the `industries` array:
 
@@ -15,34 +15,38 @@ To add another industry tab, add an object to the `industries` array:
   "shortName": "Sample",
   "headline": "The board headline.",
   "description": "What this board is for.",
-  "quickActions": [
-    { "label": "Saved search", "url": "https://example.com/jobs" }
+  "keywordSearch": {
+    "placeholder": "Try analyst...",
+    "sites": [
+      { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" }
+    ]
+  },
+  "careers": [
+    { "name": "Example Careers", "url": "https://example.com/careers" }
   ],
-  "links": [
-    {
-      "name": "Example Careers",
-      "type": "Company",
-      "description": "Why this site belongs here.",
-      "cadence": "Check weekly.",
-      "url": "https://example.com/careers",
-      "searchUrl": "https://example.com/careers?q=geo"
-    }
-  ]
+  "jobBoards": [
+    { "name": "Example Board", "url": "https://example.com/jobs" }
+  ],
+  "automation": {
+    "ready": [],
+    "requirements": ["Daily results are not active yet."],
+    "research": ["Confirm a supported API or feed before automating this source."]
+  }
 }
 ```
 
-## Daily Newest Jobs
+For a tab without a keyword search section, omit `keywordSearch`, as the Missoula tab does.
 
-Recurring searches live in `data/searches.json`. The included searches use USAJOBS.
+## Future Daily Newest Jobs
 
-USAJOBS currently requires an API key and three request headers for job search calls: `Host`, `User-Agent`, and `Authorization-Key`. The user agent should be the email address used for the API key request. Source: <https://developer.usajobs.gov/guides/authentication>
+The current page documents sources that are appropriate starting points for a scheduled update. Collection is not enabled in the visible dashboard yet.
 
-Add these repository secrets in GitHub:
+- **USAJOBS keyword searches**: The official Search API requires an API key and the `Host`, `User-Agent`, and `Authorization-Key` headers. `User-Agent` should be the email address used for the API key request. Source: <https://developer.usajobs.gov/guides/authentication>
+- **10a Labs and One Acre Fund**: Both use Greenhouse-hosted job boards. Greenhouse's Job Board API exposes published GET job listings without authentication. Source: <https://developers.greenhouse.io/job-board>
+- **Sibylline**: Its SmartRecruiters-hosted career page can use the public Posting API; SmartRecruiters documents the Posting API as public data available without authentication. Source: <https://developers.smartrecruiters.com/docs/authentication>
+- **ReliefWeb Jobs**: The ReliefWeb API exposes job data. It requires a pre-approved `appname` query parameter for API requests. Source: <https://apidoc.reliefweb.int/parameters>
 
-- `USAJOBS_USER_AGENT`: the email address used for your USAJOBS API key
-- `USAJOBS_AUTH_KEY`: your USAJOBS API key
-
-Then run **Actions -> Update newest jobs -> Run workflow** once. After that, the workflow runs every day at 12:00 UTC and commits `data/jobs.json`.
+Other career pages and aggregators on the board remain manual links unless a supported feed/API or an acceptable monitoring method is confirmed.
 
 ## Publish With GitHub Pages
 
