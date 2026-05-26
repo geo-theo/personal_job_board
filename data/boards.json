@@ -7,35 +7,89 @@
       "headline": "Jobs local to Missoula, Montana.",
       "description": "Career pages and local boards to scan for work based in or near Missoula.",
       "careers": [
-        { "name": "City of Missoula", "url": "https://www.governmentjobs.com/careers/missoulacity/" },
-        { "name": "Missoula County", "url": "https://www.governmentjobs.com/careers/missoulacounty/" },
-        { "name": "University of Montana", "url": "https://www.schooljobs.com/careers/ummissoula" },
+        {
+          "name": "City of Missoula",
+          "url": "https://www.governmentjobs.com/careers/missoulacity/"
+        },
+        {
+          "name": "Missoula County",
+          "url": "https://www.governmentjobs.com/careers/missoulacounty/"
+        },
+        {
+          "name": "University of Montana",
+          "url": "https://www.schooljobs.com/careers/ummissoula"
+        },
         { "name": "OnX", "url": "https://www.onxmaps.com/join-our-team" },
-        { "name": "RMEF", "url": "https://recruiting.paylocity.com/recruiting/jobs/All/45c60a54-fb7a-4c78-807d-923bc65279d3/Rocky-Mountain-Elk-Foundation" },
-        { "name": "NorthWestern Energy", "url": "https://northwesternenergy.applicantpro.com/jobs/" },
+        {
+          "name": "RMEF",
+          "url": "https://recruiting.paylocity.com/recruiting/jobs/All/45c60a54-fb7a-4c78-807d-923bc65279d3/Rocky-Mountain-Elk-Foundation"
+        },
+        {
+          "name": "NorthWestern Energy",
+          "url": "https://northwesternenergy.applicantpro.com/jobs/"
+        },
         {
           "name": "GSI Environmental",
           "url": "https://www.paycomonline.net/v4/ats/web.php/portal/84C0F5CB02B1467DD28BA3FC61C63DFD/career-page",
-          "note": "Set location to Missoula, MT - Missoula, MT 59802."
+          "note": "Set location to 'Missoula, MT - Missoula, MT 59802'."
         },
         { "name": "Land ID", "url": "https://id.land/about#careers" },
-        { "name": "Washington Companies", "url": "https://fa-evwo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs" },
+        {
+          "name": "Washington Companies",
+          "url": "https://fa-evwo-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs"
+        },
         { "name": "Submittable", "url": "https://www.submittable.com/careers" },
         { "name": "Edulog", "url": "https://www.edulog.com/careers/" },
         { "name": "Skyfish Drones", "url": "https://skyfish.ai/careers/" },
-        { "name": "Blackfoot Communications", "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ad3c4dbc-c216-48d0-b074-78ff1d7461e4&ccId=19000101_000001&lang=en_US" },
-        { "name": "YMCA", "url": "https://www.ymcamissoula.org/job-opportunities" },
-        { "name": "GCS Consulting", "url": "https://gcs.yourdatasmarter.com/careers/" },
-        { "name": "State of Montana", "url": "https://mtstatejobs.taleo.net/careersection/200/jobsearch.ftl?lang=en" }
+        {
+          "name": "Blackfoot Communications",
+          "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ad3c4dbc-c216-48d0-b074-78ff1d7461e4&ccId=19000101_000001&lang=en_US"
+        },
+        {
+          "name": "YMCA",
+          "url": "https://www.ymcamissoula.org/job-opportunities"
+        },
+        {
+          "name": "GCS Consulting",
+          "url": "https://gcs.yourdatasmarter.com/careers/"
+        },
+        {
+          "name": "State of Montana",
+          "url": "https://mtstatejobs.taleo.net/careersection/200/jobsearch.ftl?lang=en"
+        }
       ],
       "jobBoards": [
-        { "name": "Missoulian", "url": "https://jobs.missoulian.com/search?keyword=&location=Missoula%2C+MT&page=1&radius_mi=&experience=", "note": "Missoula search results" },
-        { "name": "MT High Tech Business Alliance", "url": "https://jobs.mthightech.org/" },
-        { "name": "Missoula Nonprofit Center", "url": "https://www.missoulanonprofitcenter.org/job-board" },
-        { "name": "Missoula Chamber of Commerce", "url": "https://www.missoulachamber.com/community-job-board" },
-        { "name": "Indeed", "url": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT&vjk=b53e4304f3362a29", "note": "Missoula search results" },
-        { "name": "ZipRecruiter", "url": "https://www.ziprecruiter.com/jobs-search?search=&location=Missoula%2C+MT&radius=50&days=&refine_by_employment=&refine_by_location_type=&refine_by_salary=&refine_by_salary_ceil=&refine_by_apply_type=has_zipapply&refine_by_experience_level=no_experience%2Cjunior%2Cmid&lk=o4SyjcXT4yJRheH30B1ILA", "note": "Missoula search results" },
-        { "name": "Craigslist", "url": "https://missoula.craigslist.org/search/jjj#search=2~thumb~0" }
+        {
+          "name": "Missoulian",
+          "url": "https://jobs.missoulian.com/search?keyword=&location=Missoula%2C+MT&page=1&radius_mi=&experience=",
+          "note": "Missoula search results"
+        },
+        {
+          "name": "MT High Tech Business Alliance",
+          "url": "https://jobs.mthightech.org/"
+        },
+        {
+          "name": "Missoula Nonprofit Center",
+          "url": "https://www.missoulanonprofitcenter.org/job-board"
+        },
+        {
+          "name": "Missoula Chamber of Commerce",
+          "url": "https://www.missoulachamber.com/community-job-board"
+        },
+        {
+          "name": "Indeed",
+          "url": "https://www.indeed.com/jobs?q=&l=Missoula%2C+MT&vjk=b53e4304f3362a29",
+          "note": "Missoula search results"
+        },
+        {
+          "name": "ZipRecruiter",
+          "url": "https://www.ziprecruiter.com/jobs-search?search=&location=Missoula%2C+MT&radius=50&days=&refine_by_employment=&refine_by_location_type=&refine_by_salary=&refine_by_salary_ceil=&refine_by_apply_type=has_zipapply&refine_by_experience_level=no_experience%2Cjunior%2Cmid&lk=o4SyjcXT4yJRheH30B1ILA",
+          "note": "Missoula search results"
+        },
+        {
+          "name": "Craigslist",
+          "url": "https://missoula.craigslist.org/search/jjj#search=2~thumb~0"
+        }
       ],
       "automation": {
         "ready": [],
@@ -57,23 +111,45 @@
       "keywordSearch": {
         "placeholder": "Try GIS, geospatial analyst, remote sensing...",
         "sites": [
-          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
-          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" },
-          { "name": "Google Maps Careers", "template": "https://www.google.com/about/careers/applications/jobs/results/?q={query}&sort_by=date" }
+          {
+            "name": "LinkedIn",
+            "template": "https://www.linkedin.com/jobs/search/?keywords={query}"
+          },
+          {
+            "name": "USAJOBS",
+            "template": "https://www.usajobs.gov/Search/Results?k={query}"
+          },
+          {
+            "name": "Google Maps Careers",
+            "template": "https://www.google.com/about/careers/applications/jobs/results/?q={query}&sort_by=date"
+          }
         ]
       },
       "careers": [
-        { "name": "Esri", "url": "https://www.esri.com/en-us/about/careers/job-search" },
-        { "name": "Google Maps", "url": "https://www.google.com/about/careers/applications/jobs/results/?q=geo&sort_by=date", "note": "Geo results, newest first" }
+        {
+          "name": "Esri",
+          "url": "https://www.esri.com/en-us/about/careers/job-search"
+        },
+        {
+          "name": "Google Maps",
+          "url": "https://www.google.com/about/careers/applications/jobs/results/?q=geo&sort_by=date",
+          "note": "Geo results, newest first"
+        }
       ],
       "jobBoards": [
         { "name": "GIS Jobs", "url": "https://www.mygisjobs.com/" },
-        { "name": "GIS Jobs Clearinghouse", "url": "https://www.gjc.org/cgi-bin/listjobs.pl" },
+        {
+          "name": "GIS Jobs Clearinghouse",
+          "url": "https://www.gjc.org/cgi-bin/listjobs.pl"
+        },
         { "name": "More GIS Jobs", "url": "https://www.gisjobs.com/" }
       ],
       "automation": {
         "ready": [
-          { "name": "USAJOBS keyword searches", "requirement": "Requires a USAJOBS API key plus User-Agent email and Authorization-Key request headers." }
+          {
+            "name": "USAJOBS keyword searches",
+            "requirement": "Requires a USAJOBS API key plus User-Agent email and Authorization-Key request headers."
+          }
         ],
         "requirements": [
           "USAJOBS can later populate GIS keyword results through its official Search API."
@@ -92,17 +168,42 @@
       "keywordSearch": {
         "placeholder": "Try food security, MEL, humanitarian, governance...",
         "sites": [
-          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
-          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" },
-          { "name": "ReliefWeb", "template": "https://reliefweb.int/jobs?search={query}" },
-          { "name": "Idealist", "template": "https://www.idealist.org/en/jobs?q={query}" }
+          {
+            "name": "LinkedIn",
+            "template": "https://www.linkedin.com/jobs/search/?keywords={query}"
+          },
+          {
+            "name": "USAJOBS",
+            "template": "https://www.usajobs.gov/Search/Results?k={query}"
+          },
+          {
+            "name": "ReliefWeb",
+            "template": "https://reliefweb.int/jobs?search={query}"
+          },
+          {
+            "name": "Idealist",
+            "template": "https://www.idealist.org/en/jobs?q={query}"
+          }
         ]
       },
       "careers": [
-        { "name": "One Acre Fund", "url": "https://oneacrefund.org/careers/job-openings" },
-        { "name": "FEWS NET", "url": "https://fews.net/", "note": "FEWS NET roles are frequently posted through implementing partner Chemonics." },
-        { "name": "Chemonics US", "url": "https://phh.tbe.taleo.net/phh02/ats/careers/v2/searchResults?org=CHEMONICS&cws=50" },
-        { "name": "Chemonics UK", "url": "https://chemonicsukweb.eploy.net/vacancies/vacancy-search-results.aspx" }
+        {
+          "name": "One Acre Fund",
+          "url": "https://oneacrefund.org/careers/job-openings"
+        },
+        {
+          "name": "FEWS NET",
+          "url": "https://fews.net/",
+          "note": "FEWS NET roles are frequently posted through implementing partner Chemonics."
+        },
+        {
+          "name": "Chemonics US",
+          "url": "https://phh.tbe.taleo.net/phh02/ats/careers/v2/searchResults?org=CHEMONICS&cws=50"
+        },
+        {
+          "name": "Chemonics UK",
+          "url": "https://chemonicsukweb.eploy.net/vacancies/vacancy-search-results.aspx"
+        }
       ],
       "jobBoards": [
         { "name": "UN Jobs", "url": "https://unjobs.org/" },
@@ -112,8 +213,14 @@
       ],
       "automation": {
         "ready": [
-          { "name": "One Acre Fund", "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication." },
-          { "name": "ReliefWeb Jobs", "requirement": "ReliefWeb API v2 exposes jobs; use a pre-approved appname query parameter." }
+          {
+            "name": "One Acre Fund",
+            "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication."
+          },
+          {
+            "name": "ReliefWeb Jobs",
+            "requirement": "ReliefWeb API v2 exposes jobs; use a pre-approved appname query parameter."
+          }
         ],
         "requirements": [
           "A future daily update can begin with One Acre Fund and ReliefWeb without scraping their rendered pages."
@@ -132,25 +239,58 @@
       "keywordSearch": {
         "placeholder": "Try geopolitical risk, intelligence analyst, country risk...",
         "sites": [
-          { "name": "LinkedIn", "template": "https://www.linkedin.com/jobs/search/?keywords={query}" },
-          { "name": "USAJOBS", "template": "https://www.usajobs.gov/Search/Results?k={query}" }
+          {
+            "name": "LinkedIn",
+            "template": "https://www.linkedin.com/jobs/search/?keywords={query}"
+          },
+          {
+            "name": "USAJOBS",
+            "template": "https://www.usajobs.gov/Search/Results?k={query}"
+          }
         ]
       },
       "careers": [
-        { "name": "Eurasia Group", "url": "https://ats.rippling.com/eurasia-group/jobs" },
-        { "name": "RANE Network", "url": "https://www.ranenetwork.com/about/career-page" },
-        { "name": "Sibylline", "url": "https://careers.smartrecruiters.com/SibyllineLtd/" },
-        { "name": "10a Labs", "url": "https://job-boards.greenhouse.io/10alabs" },
-        { "name": "Control Risks", "url": "https://apply.workable.com/control-risks-6/#jobs" },
-        { "name": "ISW", "url": "https://understandingwar.org/about-isw/careers/#open-positions" }
+        {
+          "name": "Eurasia Group",
+          "url": "https://ats.rippling.com/eurasia-group/jobs"
+        },
+        {
+          "name": "RANE Network",
+          "url": "https://www.ranenetwork.com/about/career-page"
+        },
+        {
+          "name": "Sibylline",
+          "url": "https://careers.smartrecruiters.com/SibyllineLtd/"
+        },
+        {
+          "name": "10a Labs",
+          "url": "https://job-boards.greenhouse.io/10alabs"
+        },
+        {
+          "name": "Control Risks",
+          "url": "https://apply.workable.com/control-risks-6/#jobs"
+        },
+        {
+          "name": "ISW",
+          "url": "https://understandingwar.org/about-isw/careers/#open-positions"
+        }
       ],
       "jobBoards": [
-        { "name": "Political Risk Jobs", "url": "https://www.politicalriskjobs.com/" }
+        {
+          "name": "Political Risk Jobs",
+          "url": "https://www.politicalriskjobs.com/"
+        }
       ],
       "automation": {
         "ready": [
-          { "name": "10a Labs", "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication." },
-          { "name": "Sibylline", "requirement": "Published postings are available through the SmartRecruiters Posting API without authentication." }
+          {
+            "name": "10a Labs",
+            "requirement": "Published jobs are available through the Greenhouse Job Board API; GET job listings require no authentication."
+          },
+          {
+            "name": "Sibylline",
+            "requirement": "Published postings are available through the SmartRecruiters Posting API without authentication."
+          }
         ],
         "requirements": [
           "A future daily update can begin with 10a Labs and Sibylline."
