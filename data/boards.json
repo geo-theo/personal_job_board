@@ -92,9 +92,14 @@
         }
       ],
       "automation": {
-        "ready": [],
+        "ready": [
+          {
+            "name": "OnX",
+            "requirement": "Published jobs are available through the Greenhouse Job Board API; filter the returned listing locations to Missoula."
+          }
+        ],
         "requirements": [
-          "No documented public job-listings API has been confirmed yet for the local sources above."
+          "A future local daily update can start with OnX, filtering its public published-job feed to Missoula locations."
         ],
         "research": [
           "GovernmentJobs/SchoolJobs, Oracle Recruiting, Paycom, ADP, Taleo, and company career pages need a supported public feed or an approved page-monitoring approach before daily collection.",
@@ -290,13 +295,17 @@
           {
             "name": "Sibylline",
             "requirement": "Published postings are available through the SmartRecruiters Posting API without authentication."
+          },
+          {
+            "name": "Control Risks",
+            "requirement": "Published jobs are available through Workable's public published-job endpoints."
           }
         ],
         "requirements": [
-          "A future daily update can begin with 10a Labs and Sibylline."
+          "A future daily update can begin with 10a Labs, Sibylline, and Control Risks."
         ],
         "research": [
-          "Eurasia Group, RANE Network, Control Risks, ISW, and Political Risk Jobs need a confirmed supported feed/API or permitted monitoring approach first."
+          "Eurasia Group, RANE Network, ISW, and Political Risk Jobs need a confirmed supported feed/API or permitted monitoring approach first."
         ]
       }
     }

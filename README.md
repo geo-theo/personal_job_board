@@ -42,8 +42,9 @@ For a tab without a keyword search section, omit `keywordSearch`, as the Missoul
 The current page documents sources that are appropriate starting points for a scheduled update. Collection is not enabled in the visible dashboard yet.
 
 - **USAJOBS keyword searches**: The official Search API requires an API key and the `Host`, `User-Agent`, and `Authorization-Key` headers. `User-Agent` should be the email address used for the API key request. Source: <https://developer.usajobs.gov/guides/authentication>
-- **10a Labs and One Acre Fund**: Both use Greenhouse-hosted job boards. Greenhouse's Job Board API exposes published GET job listings without authentication. Source: <https://developers.greenhouse.io/job-board>
+- **OnX, 10a Labs, and One Acre Fund**: These use Greenhouse-hosted job boards. Greenhouse's Job Board API exposes published GET job listings without authentication. Source: <https://developers.greenhouse.io/job-board>
 - **Sibylline**: Its SmartRecruiters-hosted career page can use the public Posting API; SmartRecruiters documents the Posting API as public data available without authentication. Source: <https://developers.smartrecruiters.com/docs/authentication>
+- **Control Risks**: Its Workable-hosted page can use Workable's public published-job endpoints. Source: <https://help.workable.com/hc/en-us/articles/115012771647-Using-the-Workable-API-to-create-a-careers-page>
 - **ReliefWeb Jobs**: The ReliefWeb API exposes job data. It requires a pre-approved `appname` query parameter for API requests. Source: <https://apidoc.reliefweb.int/parameters>
 
 Other career pages and aggregators on the board remain manual links unless a supported feed/API or an acceptable monitoring method is confirmed.
