@@ -1,6 +1,6 @@
 {
   "configured": false,
-  "updatedAt": "2026-07-02T14:01:13.659Z",
+  "updatedAt": "2026-07-03T14:04:28.280Z",
   "searches": [],
   "errors": [
     "USAJOBS_USER_AGENT and USAJOBS_AUTH_KEY are required for automatic updates."
